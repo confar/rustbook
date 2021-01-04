@@ -5,6 +5,7 @@ fn main() {
     println!("first word is {}", word);
     println!("first word is {}", first_word(&s1));
     s.clear();
+    println!("string is {}", s);
 
 
 }
@@ -16,6 +17,5 @@ fn first_word(s: &String) -> &str {
             return &s[..i];
         }
     }
-
     &s
 }

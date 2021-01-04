@@ -1,6 +1,6 @@
 fn main() {
 //    tuple way
-    let rect = (30, 50);
+    let rect = (300000000000000000, 500000000000000000);
     println!("The area of the square is {}", area(rect));
 //    struct way
     let rect1 = Rectangle { width: 30, height: 50 };
@@ -22,7 +22,7 @@ struct Rectangle {
 
 }
 
-fn area(dimensions: (i32, i32)) -> i32 {
+fn area(dimensions: (i64, i64)) -> i32 {
     dimensions.0 * dimensions.1
 }
 

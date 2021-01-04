@@ -10,4 +10,8 @@ fn main() {
 //    let spaces = spaces.len();
     println!("The len of spaces is: {}", spaces);
 
+    let guess: u32 = "42".parse().expect("Not a number!");
+    println!("The guess is: {}", guess);
+
+
 }
