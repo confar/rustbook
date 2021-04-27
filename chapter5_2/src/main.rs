@@ -1,8 +1,8 @@
 fn main() {
-//    tuple way
+    // with tuple
     let rect = (300000000000000000, 500000000000000000);
     println!("The area of the square is {}", area(rect));
-//    struct way
+    // with struct
     let rect1 = Rectangle { width: 30, height: 50 };
     println!("The area of the square is {}", rect1.area());
 
