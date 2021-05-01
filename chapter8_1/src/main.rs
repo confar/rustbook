@@ -6,7 +6,6 @@ enum SpreadsheetCell {
 }
 
 
-
 fn main() {
 
     let v = vec![1, 2, 3];
@@ -66,5 +65,4 @@ fn main() {
     for i in &mut v {
         println!("{}", i);
     }
-
 }
